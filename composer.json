@@ -1,0 +1,22 @@
+{
+    "name": "maksible/image-to-text",
+    "description": "Creating Posts with Images to text",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Maksible",
+            "email": "maksible@gmail.com"
+        },
+        {
+            "name": "Muhammad",
+            "email": "muhammad.begawala@gmail.com"
+        }
+    ],
+    "require": {
+        "thiagoalessio/tesseract_ocr":"@stable"
+    },
+    "autoload": {
+		"psr-4": {"IPTT\\": "./classes"}
+	}
+}
